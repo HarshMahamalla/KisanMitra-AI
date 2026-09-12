@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+#get regenerated automatically from package.json
+frontend/node_modules/
+
+#compiled Python bytecode, not source code, safe to skip
+__pycache__/

@@ -42,7 +42,7 @@ KisanMitra AI is a production-ready, multi-agent farming advisory system that de
 └──────────────────────────────────────────────────────┘
                          │
                     Groq LLM API
-              (llama-3.3-70b-versatile)
+                    (qwen3.8-27b)
 ```
 
 ---
@@ -52,7 +52,7 @@ KisanMitra AI is a production-ready, multi-agent farming advisory system that de
 | Layer | Technology |
 |-------|-----------|
 | Backend | Python 3.10+, Flask 3.0, Flask-CORS |
-| LLM | Groq API — `llama-3.3-70b-versatile` (text), `llama-3.2-11b-vision-preview` (pest images) |
+| LLM | Groq API — `qwen3.8-27b` (text), `qwen3.8-27b` (pest images) |
 | Frontend | React 18, Vite 5, Tailwind CSS 3 |
 | Animations | Framer Motion 11 |
 | Charts | Recharts |
@@ -134,8 +134,8 @@ notepad .env
 Edit `.env` and add your Groq API key:
 ```
 GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxxxxxxxxxx
-GROQ_MODEL=llama-3.3-70b-versatile
-GROQ_VISION_MODEL=llama-3.2-11b-vision-preview
+GROQ_MODEL=qwen3.8-27b
+GROQ_VISION_MODEL=qwen3.8-27b
 FLASK_SECRET_KEY=any-random-string-here-change-this
 FLASK_ENV=development
 FLASK_PORT=5000
